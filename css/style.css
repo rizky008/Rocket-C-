@@ -1,0 +1,92 @@
+
+/* navbar */
+.navbar-brand {
+  font-family: viga;
+  font-size: 24px;
+  color: blue;
+}
+
+.nav-link {
+  text-transform: capitalize;
+  margin-right:30px;
+  color: blue;
+}
+.navbar-brand,
+.nav-link {
+  color: blue; !important;
+  text-shadow: 1px, 1px, 1px, #75769e;
+}
+
+/* utilitas */
+
+.tombol {
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 30px;
+}
+.carousel-item img {
+  height: 400px;
+  width:1200px;
+}
+.display-4 {
+  font-size: 15px;
+  font-family: viga;
+  color: #637e6059;
+}
+
+.about {
+  
+  margin-top: 30px;
+  
+}
+
+.portfolio {
+
+  background-color: #696969;
+  margin-top: 30px;
+
+}
+
+
+/* dekstop version */
+
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: blue; !important;
+    text-shadow: 1px, 1px, 1px, #f3f3f3;
+  }
+  .nav-link {
+    text-transform: capitalize;
+    margin-left: 15px;
+  }
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f7f7fa;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+  }
+  /* jumbotron style */
+
+  .carousel-item {
+    height: 620px;
+    width: 100%;
+  }
+  .carousel-item img {
+    height: 620px;
+    width: 100%;
+  }
+  .display-4 {
+    font-size: 60px;
+    color: #637e6059;
+  }
+
+  /* about */
+  .about {
+  
+    margin-top: 30px;
+   
+  }
+}
